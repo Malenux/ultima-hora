@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="app.css">
+    <script type="module" src="./src/index.js"></script>
+    <title>Ultima Hora</title>
+</head>
+<body>
+    <header-component>
+        <featured-news-component slot="top-head"></featured-news-component>
+        <editions-component slot="top-head"></editions-component>
+        <hamburger-component slot="main-head"></hamburger-component>
+        <logo-component slot="main-head"></logo-component>
+        <user-area-component slot="main-head"></user-area-component>
+        <menu-component slot="bottom-head"></menu-component>
+    </header-component>
+
+    <main-component>
+        <ad-banner-component width="100%" image="./images/fulladbanner.webp"></ad-banner-component>
+        <news-component>
+            <row-component>
+                <new-component
+                    image="./images/Caso-Mascarillas.webp"
+                    title="Armengol señala que las conversaciones con Kaldo corroboran su versión: 'Siempre he luchado contra de la corrupción'"
+                    category="Caso Mascarillas"
+                    description="La presidenta del Congreso responde así a las informaciones extraídas del informe de la UCO"
+                >
+                </new-component>
+            </row-component>
+            <row-component>
+                <new-component
+                    image="./images/Govern-desconoce.webp"
+                    title="El Govern desconoce si se cerró el contrato que pactó Koldo con Armengol"
+                >
+                </new-component>
+                <new-component
+                    image="./images/Ábalos-declarar-como-testigo.webp"
+                    title="Ábalos pide declarar voluntariamente como testig"
+                    >
+                </new-component>
+                <new-component
+                    image="./images/Kaldo-a-Armengol.webp"
+                    title="Koldo a Armangol: 'Vale cariño, te mantengo informada'">
+                </new-component>
+                <new-component
+                    image="./images/Cifras-de-la-trama-Koldo.webp"
+                    title="Las cifras de la 'trama Koldo': 60 millones en adjudicaciones y 16,5 en comisiones, alquileres y chalets de lujo">
+                </new-component>
+            </row-component>
+            <row-component>
+                <new-component
+                    author="Kike Oñate"
+                    image="./images/Huelga-por-la-nueva-selectividad.webp"
+                    category="Educación"
+                    title="Casi 4.000 alumnos de Baleares secudan la huelga por la nueva selectividad">
+                </new-component>
+                <new-component
+                    author="Javier Jiménez"
+                    image="./images/Desaparecidas-Palma.webp"
+                    category="Palma"
+                    title="El vehículo entre Agostina Rubini y Melén Ortiz: eran amigas de la infancia">
+                </new-component>
+            </row-component>
+        </news-component>
+        <ad-banner-component  width="28%"  image="./images/adbannerone_1.webp"></ad-banner-component>
+        <ad-banner-component  width="28%"  image="./images/adbanneroficine.webp"></ad-banner-component>
+        <news-component>
+            <row-component>
+                <new-component
+                    image="./images/Aprovación-gasto.webp"
+                    category="Presupuestos"
+                    title="El Govern aprueba el mayor techo de gasto de su historia">
+                </new-component>
+                <new-component
+                    image="./images/No-lo-tenemos-claro.webp"
+                    category="Branded content"
+                    title="Los españoles 'no lo tenemos claro'"
+                    author="Redacción Monográficos"
+                >
+                </new-component>
+                <new-component
+                    image="./images/Catálogos-de-comercios.webp"
+                    category="Palma"
+                    title="El catálogo de comercios emblemáticos de Palma suma 13 nuevos establecimientos"
+                    author="Blanca Pou"
+                >
+                </new-component>
+            </row-component>
+            <row-component>
+                <new-component
+                    image="./images/16.000-menores-en-situación-de-carencia-material-severa.web"
+                    category="Local"
+                    title="Casi 16.000 menores de Baleares viven en hogares en situacion de carencia material severa"
+                    author="Itziar F. Landero"
+                >
+                <new-component
+                    image="./images/Subida-de-la-tasa-de-basura.webp"
+                    category="Local"
+                    title="Subida de la tasa de basura: desconcierto total entre los alcaldes de Baleares, que desconocen oómo aplicarla"
+                    author="Alicia Monteros"
+                >
+            </row-component>
+        </news-component>
+    </main-component>
+</body>
+</html>

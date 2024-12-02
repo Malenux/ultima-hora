@@ -1,0 +1,213 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.top-head{
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    background-color: #E6E6E6;
+    padding: 0 20%;
+}
+
+.feature ul{
+    align-items: center;
+    display: flex;
+    gap: 0.5rem;
+}
+
+.feature ul li{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+
+.feature ul li:first-child {
+    color: #CD0000;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.feature ul li:first-child::after{
+    content: ":";
+}
+
+.feature ul li:not(:first-child):not(:last-child)::after{
+    padding-left: 0.25rem;
+    content: "-";
+}
+
+.editions ul{
+    align-items: center;
+    display: flex;
+    gap: 0.5rem;
+}
+
+.editions ul li{
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+}
+
+.editions ul li:not(:last-child)::after{
+    content: "|";
+    padding-left: 0.5rem;
+}
+
+.main-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #CD0000;
+    padding: 1.5rem 20%;
+}
+
+.menu-hamburger svg{
+    width: 3.5rem;
+    display: flex;
+    fill: white;
+}
+
+.logo svg{
+    width: 18rem;
+    fill: white;
+}
+
+.user-area {
+    display: flex;
+    gap: 1rem;
+}
+
+.login button{
+    align-items: center;
+    display: flex;
+    gap: 0.2rem;
+    background-color: hwb(0 82% 18%);
+    border-color: hwb(0 82% 18%);
+    border-width: 0.5rem;
+    border-style: dashed;
+    border-radius: 0.3rem;
+    font-family: Roboto, "Helvetica Neue", Arial;
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+
+.login svg {
+    width: 1rem;
+}
+
+.signin button{
+    gap: 0.2rem;
+    background-color: #FFC700;
+    border-color: #FFC700;
+    border-width: 0.5rem;
+    border-style: dashed;
+    border-radius: 0.3rem;
+    font-family: 'Times New Roman';
+    font-style: italic;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+
+.bottom-head{
+    padding: 0 20%;
+    background-color: #E6E6E6;
+    
+}
+
+.menu ul{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 0.3rem 0;
+}
+
+.menu ul li{
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 700;
+}
+
+.menu ul li svg{
+    width: 2rem;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 0 20%;
+}
+
+.full-ad-banner{
+    width: 100%;
+}
+
+.ad-banner{
+    width: 28%;
+}
+
+.news{
+    width: 70%;
+}
+
+.row{
+    display: flex;
+    gap: 1rem;
+    margin: 0 2%;
+}
+
+.new{
+    width: 100%;
+}
+
+
+.main-new-category h4{
+    color: white;
+    background-color: #CD0000;
+    font-family: Roboto, "Helvetica Neue", Arial;
+    margin: 0%;
+    display: inline-block;
+    padding: 0.2rem;
+}
+
+.new-category{
+    font-size: 10px;
+}
+
+.main-new-title{
+    font-family: Roboto, "Helvetica Neue", Arial;
+    font-size: 15px;
+}
+
+.new-title{
+    font-family: Roboto, "Helvetica Neue", Arial;
+    font-size: 11px;
+    font-weight: 100;
+}
+
+.new-description{
+    font-family: Roboto, "Helvetica Neue", Arial;
+    font-size: 1rem;
+}
+
+.new-list{
+    font-size: 12px;
+
+}
+
+.new-author h4{
+    color: #3d3d3d;
+    font-family: Roboto, "Helvetica Neue", Arial;
+    font-size: 12px;
+    font-weight: 500;
+}
